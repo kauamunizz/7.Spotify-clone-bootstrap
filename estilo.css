@@ -1,0 +1,100 @@
+.preto {
+    background: black;
+}
+
+nav ul li a:hover {
+    color: rgb(69, 238, 69) !important;
+}
+
+.margin-right {
+    margin-right: 15px;
+}
+
+.tamanho {
+    width: 37px;
+}
+
+*{
+    font-family: 'circular';
+}
+
+a {
+    font-family: 'circular';
+}
+
+h1 {
+    font-family: 'circular';
+}
+
+@font-face {
+    font-family: circular;
+    src:url(img/circular-std-medium-500.ttf);
+}
+
+#home {
+    background: #00008B;
+    color: #7FFF00;
+    /*position: absolute;
+    height: 130%;
+    width: 100%;*/
+}
+
+.fundo {
+    background: #00008B;
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.botao {
+    background: #7FFF00;
+    color: #00008B;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.espacamento {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.texto {
+    font-size: 9em;
+}
+
+@media (max-width: 720px) {
+    nav .container .navbar-nav li {
+        text-align: center;
+    }
+    nav .container .margin-right {
+        margin-right: 0 !important;
+    }
+    .texto{
+        font-size: 4em;
+        line-height: 1;
+    }
+    .espacamento {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    footer .d-flex {
+        display: inline-block !important;
+        text-align: center;
+        width: 100%;
+    }
+    footer .margin {
+        margin: 20px 0;
+    }
+    footer .container {
+        padding: 2px 15px 15px 15px;
+    }
+}
+
+#links a {
+    color: white;
+}
+
+#links a:hover {
+    color: #7FFF00;
+    text-decoration: none;
+}
