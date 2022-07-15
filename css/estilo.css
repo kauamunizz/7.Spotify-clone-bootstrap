@@ -69,6 +69,9 @@ h1 {
     nav .container .margin-right {
         margin-right: 0 !important;
     }
+    .lead {
+        font-size: 1rem;
+    }
     .texto{
         font-size: 4em;
         line-height: 1;
