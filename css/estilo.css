@@ -28,7 +28,7 @@ h1 {
 
 @font-face {
     font-family: circular;
-    src:url(img/circular-std-medium-500.ttf);
+    src:url(../img/circular-std-medium-500.ttf);
 }
 
 #home {
